@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tickets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="hidden">
+  <div id="ticketUI" class="container hidden">
+    <h2 class="ticket-title">Submit ticket</h2>
+    <textarea id="reason" placeholder="Scrie motivul aici..."></textarea>
+    <button type="button" class="custom-button" onclick="submitTicket()" style="top: 500px; left: 250px;">Submit ticket</button>
+<button type="button" class="custom-button" onclick="closeUI()" style="top: 500px; left: 600px;">Close</button>
+
+
+
+  </div>
+
+  <div id="adminUI" class="container hidden">
+    <h2 class="ticket-titleadmin">Ticket List</h2>
+    <div id="ticketList"></div>
+    <button onclick="closeUI()" class="admin-button" id="closeAdminBtn">Close</button>
+<div id="statsSection"></div>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
