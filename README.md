@@ -87,6 +87,8 @@ rsg-ticket/
 │  └─ ticket_stats.sql
 └─ README.md
 ```
+<img width="1360" height="870" alt="Screenshot 2025-09-05 011644" src="https://github.com/user-attachments/assets/d636194b-2609-4f1e-8aa9-f7e40e7f08db" />
+<img width="1429" height="920" alt="Screenshot 2025-09-05 011555" src="https://github.com/user-attachments/assets/0fdefba7-745e-4464-9cd8-d1605bdeff97" />
 
 ## 🤝 Contributing
 Issues and PRs are welcome! If you’ve got ideas for improvements or found a bug, open an issue.
