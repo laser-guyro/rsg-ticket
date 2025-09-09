@@ -64,7 +64,7 @@ function submitTicket() {
     return;
   }
 
-  fetch("https://rsg-tickets/submitTicket", {
+  fetch("https://rsg-ticket/submitTicket", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ reason })
@@ -74,13 +74,13 @@ function submitTicket() {
 }
 
 function closeUI() {
-  fetch("https://rsg-tickets/closeUI", {
+  fetch("https://rsg-ticket/closeUI", {
     method: "POST"
   });
 }
 
 function claimTicket(id, target) {
-  fetch("https://rsg-tickets/claimTicket", {
+  fetch("https://rsg-ticket/claimTicket", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ id, target })
@@ -142,4 +142,5 @@ function requestStats() {
   statsDiv.innerHTML = "<p>Loading...</p>";
   statsDiv.style.display = "block";
 }
+
 
