@@ -135,12 +135,13 @@ function requestStats() {
     return;
   }
 
-  fetch("https://rsg-tickets/requestStats", {
+  fetch("https://rsg-ticket/requestStats", {
     method: "POST"
   });
 
   statsDiv.innerHTML = "<p>Loading...</p>";
   statsDiv.style.display = "block";
 }
+
 
 
